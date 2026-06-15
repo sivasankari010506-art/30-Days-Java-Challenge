@@ -3,15 +3,14 @@ public class Main {
     public static void main(String[] args)
      {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int number = sc.nextInt();
-        if (number % 2 == 0)
+        int num = sc.nextInt();
+        if (num % 2 == 0)
              {
-            System.out.println(number + " is an Even number.");
+            System.out.println(num + " is an Even number.");
         } 
         else
              {
-            System.out.println(number + " is an Odd number.");
+            System.out.println(num + " is an Odd number.");
             sc.close();
         }
     }
