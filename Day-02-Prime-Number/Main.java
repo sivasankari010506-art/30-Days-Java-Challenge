@@ -17,7 +17,5 @@ public class Main
             System.out.println(num + " is a Prime Number");
         } else {
             System.out.println(num + " is not a Prime Number");
-        }
-        sc.close();
     }
 }
